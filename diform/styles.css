@@ -21,7 +21,7 @@ body{
 
 .wrapper label{
 display:block;
-margin: 0.5cm 0;
+margin: 0 0;
 }
 
 .wrapper label input{
@@ -32,6 +32,13 @@ margin: 0.5cm 0;
 .wrapper input[type="submit"]{
   font-size: 100%;
   color: blue;
+}
+
+.msg{
+  font-size: x-large;
+  background-color: cornflowerblue;
+  color: black;
+  text-align: center;
 }
 
 
