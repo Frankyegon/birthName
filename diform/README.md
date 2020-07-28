@@ -8,4 +8,4 @@ License and Copyright information
 
 The final html file is in https://github.com/Frankyegon/birthName/tree/master/diform
 
-live link - https://github.com/Frankyegon/birthName.html
+live link - https://frankyegon.github.io/birthName/. 
