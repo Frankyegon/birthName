@@ -7,20 +7,27 @@
    <body>
      <h1>form for inputing age</h1>
      <h2>
-        <form action="ipbirthName.html">
+      
+      
+        <form name="ageform" onclick="input1()">
         <label for="DD">date of birth:</label>
-        <input type="number" id="DD" name="DD"><br>
+        <input type="number" id="DD" name="DD" placeholder= "Date DDmmccyy" required><br>
         <label for="MM">month born:</label>
-        <input type="number" id="MM" name="MM"><br>
+        <input type="number" id="MM" name="MM" placeholder= "Month ddMMccyy" required><br>
         <label for="CC">Century Born(DDMMCCYY):</label>
-        <input type="number" id="CC" name="CC"><br>
+        <input type="number" id="CC" name="CC" placeholder= "Century ddmmCCyy" required><br>
         <label for="YY">Year Born(DDMMCCYY):</label>
-        <input type="number" id="YY" name="YY"><br>
-        <input type="submit">
-        </form>
-     
+        <input type="number" id="YY" name="YY" placeholder= "Year ddmmccYY"required><br>
+        <label for="gender">Enter your gender:</label>
+        <input type="text" id="gender" name="gender" placeholder= "male/female" required><br>
 
+        <input type="submit" value="submit" name="submit" onclick="input()">
+        </form>
+
+      <script src="ipbirthName.js"></script>
+    
      </h2>
+    
     
    </body>
 </html>
